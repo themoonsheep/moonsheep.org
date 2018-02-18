@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body id="stars">
+    <div class="container">
+    {% include header.html %}
+    </div>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="column twelve center">
+            <img src="{{ "/assets\logos\moonsheep-logo_big.png" | prepend: site.baseurl }}" alt="Moonsheep Logo - the moon as the sheep's body, basically">
+          </div>
+        </div>
+        <div class="row">
+          <div class="column three offset-one">
+            <img src="{{ "/assets\landing-page\docs+crowd.svg" | prepend: site.baseurl }}" alt="An iconic representation of a crowd in front a three piles of documents">
+          </div>
+          <div class="column seven">
+            <p class="question-claim">Got stacks of documents and crowd to help out digitize them?</p>
+          </div>
+          <div class="column ten offset-one center">
+            <p class="tagline">Moonsheep liberating massive collections of documents into structured data through crowdsourcing and cutting edge technology.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="case-studies">
+        <div class="container">
+          <div class="row">
+            <div class="column offset-one ten">
+              <h2> Case Studies</h2>
+              <p class="intro">
+                MPs in Hungary are hiding their assets in scanned PDFs preventing the data from being analysed. By using Moonsheep, K-Monitor showed that data liberation is not rocket science. With a few dozens volunteers we liberated the data just hours after the publication and published it in an open, searchable and comparable database.
+              </p>
+              <a class="a-link" href="#">read more</a>
+
+              <blockquote>
+                <p class="quote">During one short night our dozens of volunteers transformed more than 2000 pages of scanned PDFs into one searchable and transparent database. Moonsheep is the engine that made this process seamless and successful.</p>
+                <div class="author">
+                  <img src="{{ "/assets\about-pics\person_Attila.png" | prepend: site.baseurl }}" alt="Photograph of Attila Juhász">
+                  <span class="author-name">Attila Juhász<br />project coordinator</span>
+                </div>
+              </blockquote>
+
+              <div class="showcase row">
+                <div class="column six">
+                  <img src="{{ "/assets\landing-page\case-study\casestudy_sceen1.png" | prepend: site.baseurl }}" alt="landing page of the K-Monitor campaign of asset liberation">
+                </div>
+                <div class="column six">
+                  
+                  <img src="{{ "/assets\landing-page\case-study\casestudy_sceen2.png" | prepend: site.baseurl }}" alt="Internal page of the application - pdf on the left, input form on the right">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="column ten offset-one center">
+            <h1>Don’t know if it’s right for you?</h1>
+          </div>
+        </div>
+      </div>
+      {{ content }}
+    </main>
+
+
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+  </body>
+</html>

@@ -1,0 +1,10 @@
+/*** Colors ***/
+$white:         #FFFEE7;
+$dark-purple:   #352549;
+$main-purple:   #644263;
+
+
+/*** Gradient ***/
+@mixin mainGradient{
+  background: linear-gradient(0deg, #AB7587 0%, #352549 100%);
+}

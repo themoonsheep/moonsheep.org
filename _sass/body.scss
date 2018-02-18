@@ -33,7 +33,9 @@ body {
   line-height: 30px;
   padding-bottom: 180px;
 }
-
+a.link {
+  @include anonType(18px);
+}
 a.a-link {
   @include anonType(18px);
   display: block;
@@ -83,4 +85,32 @@ blockquote {
       float: left;
     }
   }
+}
+
+.title {
+  margin-top: 80px;
+}
+
+
+#pros-and-cons {
+  h2 {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #B5A1A1;
+  }
+  ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    li {
+      @include openType(18px);
+      line-height: 30px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+#assess-needs {
+  margin-top: 40px;
+  margin-bottom: 60px; 
+
 }

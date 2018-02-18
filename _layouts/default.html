@@ -48,7 +48,7 @@
                   <img src="{{ "/assets\landing-page\case-study\casestudy_sceen1.png" | prepend: site.baseurl }}" alt="landing page of the K-Monitor campaign of asset liberation">
                 </div>
                 <div class="column six">
-                  
+
                   <img src="{{ "/assets\landing-page\case-study\casestudy_sceen2.png" | prepend: site.baseurl }}" alt="Internal page of the application - pdf on the left, input form on the right">
                 </div>
               </div>
@@ -59,11 +59,114 @@
 
       <div class="container">
         <div class="row">
-          <div class="column ten offset-one center">
+          <div class="column ten offset-one center title">
             <h1>Don’t know if it’s right for you?</h1>
           </div>
         </div>
-      </div>
+        <div class="row">
+          <div class="column ten offset-one">
+            <div class="row">
+              <div class="column six">
+                <div class="icontext">
+                  <img src="{{ "/assets\landing-page\gov.svg" | prepend: site.baseurl }}" alt="Government building icon">
+                  <p>Bring your government historical data into digital age for greater transparency and efficiency.</p>
+                </div>
+                <div class="icontext">
+                  <img src="{{ "/assets\landing-page\research.svg" | prepend: site.baseurl }}" alt="Government building icon">
+                  <p>Research is taking forever? Bring in the crowds to automate and speed up your data collection.</p>
+                </div>
+              </div>
+              <div class="column six">
+                <div class="icontext">
+                  <img src="{{ "/assets\landing-page\document-scanning.svg" | prepend: site.baseurl }}" alt="Government building icon">
+                  <p>Your NGO has a paper problem? Turn your scans into data! Structured data will make your efforts more efficient.</p>
+                </div>
+                <div class="icontext">
+                  <img src="{{ "/assets\landing-page\metatags.svg" | prepend: site.baseurl }}" alt="Government building icon">
+                  <p>Digitise your collections and enrich them with meaningful metadata.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column ten offset-one" id="pros-and-cons">
+            <div class="row">
+              <div class="column six extra-pad">
+                <h2>PROS</h2>
+                <ul>
+                  <li>For complex, structured documents that contain labeled and linked information.</li>
+                  <li>For a lot of documents.</li>
+                  <li>For documents following similar structure in a whole dataset.</li>
+                  <li>Best for non-machine readable documents.</li>
+                  <li>If you have the data.</li>
+                </ul>
+              </div>
+              <div class="column six extra-pad">
+                <h2>CONS</h2>
+                <ul>
+                  <li>There are better tools for tagging images and transcribing texts.</li>
+                  <li>If you have little information to transcribe it might be easier to do it by hand.</li>
+                  <li>If each document is a different you may want to use <a href="#" class="link">Scribe</a>.</li>
+                  <li>For copy-pastable PDFs with tables try <a href="#" class="link">Tabula</a>.</li>
+                  <li>If you need to gather data via FOIA requests try <a href="#" class="link">Alavateli</a>.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="assess-needs">
+          <div class="column five offset-one">
+            <h2>Need more help?</h2>
+            <p class="intro">Answer the questions in Needs Assessment and we’ll help you with the decision.</p>
+          </div>
+          <div class="column five center">
+            <a class="btn btn-large btn-cta" href="#">Assess Your Needs</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column eight offset-two center title">
+            <h1>Here’s where we can help</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column eight offset-two">
+            <div class="icontext">
+              <img src="{{ "/assets\landing-page\planning.svg" | prepend: site.baseurl }}" alt="Planning icon">
+              <h2>Project planning</h2>
+              <p>Helping you define the vision of success, Set achivable goals and timelines, and Define Moonsheep data analysis goals</p>
+            </div>
+            <div class="icontext">
+              <img src="{{ "/assets\landing-page\collect.svg" | prepend: site.baseurl }}" alt="data collection icon">
+              <h2>Collecting data</h2>
+              <p>Consulting on the best practices in document digitisation, Finding and combining complementary data sources and How to archive scanned originals to preserve them.</p>
+            </div>
+            <div class="icontext">
+              <img src="{{ "/assets\landing-page\digitisations.svg" | prepend: site.baseurl }}" alt="flow icon">
+              <h2>Creating a digitisation flow</h2>
+              <p>We can help you design the digitisation process, Define metadata, categories, and content to transcribe, Define validation and quality levels, and Customize the UI for crowdsourcing.</p>
+            </div>
+            <div class="icontext">
+              <img src="{{ "/assets\landing-page\crowdsourcing.svg" | prepend: site.baseurl }}" alt="crowd icon">
+              <h2>Managing crowdsourcing</h2>
+              <p>We offer start-to-finish support in organizing offline volunteer events. Including outreach, community management, and training. We also offer integration of Moonsheep with fee-based microtasking services to deliver transcription on a tight deadline.</p>
+            </div>
+            <div class="icontext">
+              <img src="{{ "/assets\landing-page\analysis.svg" | prepend: site.baseurl }}" alt="analysis icon">
+              <h2>Analysis</h2>
+              <p>On top of basic reporting that comes with Moonsheep dashboard, we offer coding of custom reports and browsing capabilities. Raw data is rarely goal in itself. We can do a data-analysts and help find the information you are looking for.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column eight offset-two center title">
+            <a class="btn btn-large btn-cta" href="#">Contact Us</a>
+          </div>
+        </div>
       {{ content }}
     </main>
 

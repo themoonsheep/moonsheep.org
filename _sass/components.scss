@@ -9,10 +9,43 @@
     background: none;
     border: 1px solid $white;
   }
-
+  &.btn-cta {
+    background: $white;
+    color: $main-purple;
+  }
+  &.btn-large{
+    @include anonType(26px);
+    line-height: 31px;
+    padding: 13px 28px;
+    margin-top: 20px;
+  }
   > img {
     display: inline-block;
     clear: none;
     vertical-align: middle;
+  }
+}
+
+.icontext {
+  margin: 20px 0px;
+  @include clearfix;
+  img {
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-top: 6px;
+    margin-bottom: 50px;
+    float: left;
+  }
+  h2 {
+    float: left;
+    max-width: calc(100% - 80px);
+    margin-top: 10px;
+  }
+  p {
+    @include openType(18px);
+    line-height: 30px;
+    float: left;
+    max-width: calc(100% - 90px);
+    margin-top: 0px;
   }
 }

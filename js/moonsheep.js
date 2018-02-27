@@ -1,13 +1,23 @@
 var MoonSheep = {
 
   init: function(){
-    this.particles();
+    this.ms_particles();
+    this.ms_carousel('.carousel');
   },
 
-  particles: function(){
+  ms_particles: function(){
     particlesJS.load('stars', 'assets/particles.json');
+  },
+
+  ms_carousel: function(el){
+
   }
+
+
 
 }
 
 MoonSheep.init();
+$(document).ready(function(el){
+  $('.carousel').carousel({ interval: false });
+});

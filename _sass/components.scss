@@ -1,0 +1,110 @@
+.btn {
+  border-radius: 6px;
+  padding: 9px 8px;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 26px;
+  display: inline-block;
+  &.btn-transparent {
+    background: none;
+    border: 1px solid $white;
+  }
+  &.btn-cta {
+    background: $white;
+    color: $main-purple;
+  }
+  &.btn-large{
+    @include anonType(26px);
+    line-height: 31px;
+    padding: 13px 28px;
+    margin-top: 20px;
+    &.btn-full {
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    text-decoration: none; 
+  }
+
+  > img {
+    display: inline-block;
+    clear: none;
+    vertical-align: middle;
+  }
+}
+
+.icontext {
+  margin: 20px 0px;
+  @include clearfix;
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+  }
+  .helper {
+    display: inline-block;
+    vertical-align: top;
+    max-width: calc(100% - 100px);
+  //  float: left;
+    margin-bottom: 20px;
+    h2 {
+      /* float: left; */
+      max-width: 100%;
+      margin-top: 0px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    p {
+      @include openType(18px);
+      line-height: 30px;
+      max-width: 100%;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: middle;
+
+    }
+  }
+  h2 {
+    /* float: left; */
+    max-width: calc(100% - 90px);
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  p {
+    @include openType(18px);
+    line-height: 30px;
+    max-width: calc(100% - 90px);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+}
+
+table {
+  @include openType();
+  border-collapse: collapse;
+  thead{
+    @include anonType(30px);
+    th {
+      border-bottom: 3px solid #B5A1A1;
+      width: 50% !important;
+      padding: 8px 8px 16px 0px;
+      &.mid {
+        border-bottom: none;
+        width: 48px !important;
+      }
+    }
+  }
+  td {
+    padding: 12px 8px 12px 0px;
+    vertical-align: top;
+  }
+
+}

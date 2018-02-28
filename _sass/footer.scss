@@ -1,0 +1,39 @@
+footer {
+  background: url(../assets/footer/footer-outline.svg) no-repeat center top;
+  background-size: cover;
+  min-height: 579px;
+  padding-top: 263px;
+
+
+  #footer-nav {
+    @include listreset;
+    @include anonType(24px);
+    margin-top: 24px;
+    line-height: 29px;
+    li {
+      padding-bottom: 10px;
+    }
+    a {
+      text-decoration: none;
+    }
+
+  }
+
+  #contact-list {
+    @include listreset;
+    @include openType(18px);
+    li {
+      padding-bottom: 10px;
+    }
+    a {
+      text-decoration: none;
+
+      > img {
+        display: inline-block;
+        clear: none;
+        vertical-align: middle;
+        margin-right: 15px;
+      }
+    }
+  }
+}

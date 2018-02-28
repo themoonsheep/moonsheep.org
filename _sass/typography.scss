@@ -1,0 +1,24 @@
+@mixin anonType($size: 18px){
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 700;
+  font-size: $size;
+}
+
+@mixin openType($size: 18px){
+  font-family: 'Open Sans', sans-serif;
+  font-size: $size;
+  font-weight: 300;
+}
+h1 {
+  @include anonType(42px);
+  line-height: 50px;
+}
+h2 {
+  @include anonType(30px);
+  line-height: 22px;
+}
+@mixin listreset {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}

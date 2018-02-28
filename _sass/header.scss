@@ -1,0 +1,25 @@
+nav#main-nav{
+  @include anonType;
+
+  .home-link {
+    font-size: 42px;
+    margin-top: 24px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  ul.nav {
+    list-style: none;
+    padding: 0px;
+    margin-top: 30px;
+    display: inline-block;
+    li {
+      display: inline-block;
+      margin: 11px 12px 12px 0px;
+      font-size: 16px;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

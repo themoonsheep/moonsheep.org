@@ -18,7 +18,15 @@
     line-height: 31px;
     padding: 13px 28px;
     margin-top: 20px;
+    &.btn-full {
+      width: 100%;
+    }
   }
+
+  &:hover {
+    text-decoration: none; 
+  }
+
   > img {
     display: inline-block;
     clear: none;

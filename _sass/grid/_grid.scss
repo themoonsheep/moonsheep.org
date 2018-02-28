@@ -56,6 +56,12 @@ body {
   &.offset-two {
     margin-left: calc(16.6666% + #{$gutter} + #{$gutter} + #{$gutter} + #{$gutter});
   }
+  &.offset-three {
+    margin-left: calc(25% + #{$gutter} + #{$gutter} + #{$gutter} + #{$gutter});
+  }
+  &.offset-four {
+    margin-left: calc(33.3333% );
+  }
   &.extra-pad {
     padding: 0px $gutter+9px;
   }

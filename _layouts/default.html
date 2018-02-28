@@ -106,26 +106,44 @@
         <div class="row">
           <div class="column ten offset-one">
             <div class="row">
-              <div class="column six">
-                <div class="icontext">
-                  <img src="{{ "/assets\landing-page\gov.svg" | prepend: site.baseurl }}" alt="Government building icon">
-                  <p>Bring your government historical data into digital age for greater transparency and efficiency.</p>
-                </div>
-                <div class="icontext">
-                  <img src="{{ "/assets\landing-page\research.svg" | prepend: site.baseurl }}" alt="Government building icon">
-                  <p>Research is taking forever? Bring in the crowds to automate and speed up your data collection.</p>
-                </div>
+
+              <div class="column twelve">
+                <table>
+                  <tr>
+                    <td>
+                      <div class="icontext">
+                        <img src="{{ "/assets\landing-page\gov.svg" | prepend: site.baseurl }}" alt="Government building icon">
+                        <p>Bring your government historical data into digital age for greater transparency and efficiency.</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="icontext">
+                        <img src="{{ "/assets\landing-page\document-scanning.svg" | prepend: site.baseurl }}" alt="Government building icon">
+                        <p>Your NGO has a paper problem? Turn your scans into data! Structured data will make your efforts more efficient.</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="icontext">
+                        <img src="{{ "/assets\landing-page\research.svg" | prepend: site.baseurl }}" alt="Government building icon">
+                        <p>Research is taking forever? Bring in the crowds to automate and speed up your data collection.</p>
+                      </div>
+                      </td>
+                    <td>
+                      <div class="icontext">
+                        <img src="{{ "/assets\landing-page\metatags.svg" | prepend: site.baseurl }}" alt="Government building icon">
+                        <p>Digitise your collections and enrich them with meaningful metadata.</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+
+
+
+
               </div>
-              <div class="column six">
-                <div class="icontext">
-                  <img src="{{ "/assets\landing-page\document-scanning.svg" | prepend: site.baseurl }}" alt="Government building icon">
-                  <p>Your NGO has a paper problem? Turn your scans into data! Structured data will make your efforts more efficient.</p>
-                </div>
-                <div class="icontext">
-                  <img src="{{ "/assets\landing-page\metatags.svg" | prepend: site.baseurl }}" alt="Government building icon">
-                  <p>Digitise your collections and enrich them with meaningful metadata.</p>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
@@ -231,8 +249,8 @@
         </div>
 
         <div class="row">
-          <div class="column eight offset-two center title">
-            <a class="btn btn-large btn-cta" href="#">Contact Us</a>
+          <div class="column four offset-four center title">
+            <a class="btn btn-full btn-large btn-cta" href="#">Contact Us</a>
           </div>
         </div>
       {{ content }}

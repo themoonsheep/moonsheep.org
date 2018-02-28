@@ -3,4 +3,7 @@ _site
 .jekyll-metadata
 Gemfile.lock
 .bundle
-vendor
+vendor/
+
+# IDE and os-specific
+.DS_Store

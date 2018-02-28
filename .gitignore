@@ -4,3 +4,6 @@ _site
 Gemfile.lock
 .bundle
 vendor/
+
+# IDE and os-specific
+.DS_Store

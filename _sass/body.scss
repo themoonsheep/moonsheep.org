@@ -62,9 +62,11 @@ blockquote {
   display: block;
   float: left;
   clear: both;
+
   @include clearfix;
   p.quote {
     padding: 0px 80px;
+    min-height: 50px;
     margin: 0px;
     background: url(../assets/landing-page/case-study/quotes.svg) no-repeat left top;
     @include openType(18px);
@@ -165,7 +167,7 @@ blockquote {
 table#precond-table {
   td {
     vertical-align: middle;
-    padding: 0px; 
+    padding: 0px;
     &:nth-child(odd) {
       padding: 0px 20px;
     }
